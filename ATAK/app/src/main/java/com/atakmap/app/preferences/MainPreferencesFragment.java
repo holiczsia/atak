@@ -69,6 +69,9 @@ public class MainPreferencesFragment extends AtakPreferenceFragment implements
             case "atakAccounts":
                 showScreen(new AtakAccountsFragment());
                 break;
+            case "atakTrustmarks":
+                showScreen(new AtakTrustmarksFragment());
+                break;
             case "documentation":
                 showScreen(new SupportPreferenceFragment());
                 break;
@@ -109,6 +112,9 @@ public class MainPreferencesFragment extends AtakPreferenceFragment implements
 
         Preference accountsPreference = findPreference("atakAccounts");
         accountsPreference.setOnPreferenceClickListener(this);
+
+        Preference trustmarksPreference = findPreference("atakTrustmarks");
+        trustmarksPreference.setOnPreferenceClickListener(this);
 
         Preference helpPreference = findPreference("documentation");
         helpPreference.setOnPreferenceClickListener(this);

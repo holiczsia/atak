@@ -131,6 +131,16 @@ public class MyPreferenceFragment extends AtakPreferenceFragment {
                     }
                 });
 
+        Preference trustmarks = findPreference("trustmarks");
+        trustmarks.setOnPreferenceClickListener(
+                new Preference.OnPreferenceClickListener() {
+                    @Override
+                    public boolean onPreferenceClick(Preference preference) {
+                        showScreen(new AtakTrustmarksFragment());
+                        return true;
+                    }
+                });
+
         Preference documentation = findPreference("documentation");
         documentation.setOnPreferenceClickListener(
                 new Preference.OnPreferenceClickListener() {

@@ -5456,6 +5456,9 @@ com/atakmap/android/cotselector/a2525ArrayAdapter.java
  com.atakmap.android.cotselector.a2525ArrayAdapter$3
  com.atakmap.android.cotselector.a2525ArrayAdapter$RqstLoadImgThread
  com.atakmap.android.cotselector.a2525ArrayAdapter$RqstLoadImgThread$1
+com/atakmap/app/preferences/AtakTrustmarksFragment.java
+ com.atakmap.app.preferences.AtakTrustmarksFragment
+ com.atakmap.app.preferences.AtakTrustmarksFragment$1
 com/atakmap/android/vehicle/model/opengl/GLVehicleModel.java
  com.atakmap.android.vehicle.model.opengl.GLVehicleModel
  com.atakmap.android.vehicle.model.opengl.GLVehicleModel$1
@@ -7390,6 +7393,7 @@ com/atakmap/app/preferences/MyPreferenceFragment.java
  com.atakmap.app.preferences.MyPreferenceFragment$10
  com.atakmap.app.preferences.MyPreferenceFragment$11
  com.atakmap.app.preferences.MyPreferenceFragment$12
+ com.atakmap.app.preferences.MyPreferenceFragment$13
  com.atakmap.app.preferences.MyPreferenceFragment$2
  com.atakmap.app.preferences.MyPreferenceFragment$3
  com.atakmap.app.preferences.MyPreferenceFragment$4

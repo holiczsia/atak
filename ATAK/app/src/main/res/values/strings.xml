@@ -4403,5 +4403,7 @@
   <!-- Trustmark -->
   <string name="trustmarks">Trustmarks</string>
   <string name="trustmarks_desc">Manage Trustmarks.</string>
+  <string name="show_trustmark_details">Show Trustmark Details</string>
+  <string name="trustmark_text001">Trustmark Details</string>
 
 </resources>

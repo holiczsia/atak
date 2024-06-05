@@ -4943,6 +4943,7 @@
     <string name="show_password">Show Password</string>
     <string name="show_rings">Show Range Rings</string>
     <string name="show_terrainslope">Show Terrain Slope</string>
+    <string name="show_trustmark_details">Show Trustmark Details</string>
     <string name="show_urls">Show URLs</string>
     <string name="shutting_down_bt">Shutting down Bluetooth</string>
     <string name="signature_invalid">The signature for the plugin is INVALID</string>
@@ -5219,6 +5220,7 @@
     <string name="troops">Troops</string>
     <string name="troubleshooting">Troubleshooting</string>
     <string name="true_name" translatable="false">TRUE</string>
+    <string name="trustmark_text001">Trustmark Details</string>
     <string name="trustmarks">Trustmarks</string>
     <string name="trustmarks_desc">Manage Trustmarks.</string>
     <string name="truststore_password">TrustStore Password</string>

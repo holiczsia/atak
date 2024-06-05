@@ -8124,6 +8124,7 @@ string show_outline
 string show_password
 string show_rings
 string show_terrainslope
+string show_trustmark_details
 string show_urls
 string shutting_down_bt
 string signature_invalid
@@ -8400,6 +8401,7 @@ string triple_dash
 string troops
 string troubleshooting
 string true_name
+string trustmark_text001
 string trustmarks
 string trustmarks_desc
 string truststore_password
@@ -8841,6 +8843,7 @@ xml support_preferences
 xml tadilj_preferences
 xml three_d_rendering
 xml tools_preferences
+xml trustmarks
 xml unit_display_preferences
 xml usability_settings
 xml user_touch_prefs

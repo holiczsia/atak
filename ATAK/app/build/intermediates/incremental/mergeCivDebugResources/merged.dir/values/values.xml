@@ -5219,6 +5219,8 @@
     <string name="troops">Troops</string>
     <string name="troubleshooting">Troubleshooting</string>
     <string name="true_name" translatable="false">TRUE</string>
+    <string name="trustmarks">Trustmarks</string>
+    <string name="trustmarks_desc">Manage Trustmarks.</string>
     <string name="truststore_password">TrustStore Password</string>
     <string name="type">Type</string>
     <string name="type2">Type</string>

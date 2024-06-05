@@ -4400,4 +4400,8 @@
   <string name="would_you_like_to_export_mission_pkg">Would you like to export the file as a mission package?</string>
     <string name="import_file">Import File</string>
     <string name="userfeedback_submit_message">Submitted %s to the support/log directory.   This feedback will be automatically published to the tak server if configured.</string>
+  <!-- Trustmark -->
+  <string name="trustmarks">Trustmarks</string>
+  <string name="trustmarks_desc">Manage Trustmarks.</string>
+
 </resources>

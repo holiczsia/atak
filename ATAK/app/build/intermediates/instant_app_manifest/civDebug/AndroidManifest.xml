@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.atakmap.app.civ"
     android:targetSandboxVersion="2"
-    android:versionCode="1680967075"
-    android:versionName="4.6.0.5 (22d11cba)" >
+    android:versionCode="1717564056"
+    android:versionName="4.6.0.5 (2db2fdf8)" >
 
     <uses-sdk
         android:minSdkVersion="21"

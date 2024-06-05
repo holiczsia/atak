@@ -36,20 +36,6 @@
     <output-test url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/intermediates/javac/debugUnitTest/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../takkernel/engine">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/c3dt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/core" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/db" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/elevation" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/feature" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/math" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/model" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/formats/quantizedmesh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/renderer/core" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/renderer" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/util" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/cpp/renderer/feature" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/cpp/core" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/cpp/currency" isTestSource="false" />
@@ -101,15 +87,29 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/cpp/thread/impl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/cpp/util" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/cpp/formats/glues" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/c3dt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/core" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/db" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/elevation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/feature" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/math" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/formats/quantizedmesh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/renderer/core" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/renderer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/main/jni/interop/util" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/aidl_source_output_dir/debug/out" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/renderscript_source_output_dir/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/res/rs/debug" type="java-resource" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/ap_generated_sources/debugAndroidTest/out" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/aidl_source_output_dir/debugAndroidTest/out" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/renderscript_source_output_dir/debugAndroidTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/aidl_source_output_dir/debugAndroidTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/ap_generated_sources/debugAndroidTest/out" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/res/rs/androidTest/debug" type="java-test-resource" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/build/android/generated/ap_generated_sources/debugUnitTest/out" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../takkernel/engine/src/debug/res" type="java-resource" />

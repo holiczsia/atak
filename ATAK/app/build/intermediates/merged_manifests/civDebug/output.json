@@ -10,9 +10,9 @@
       "apkData": {
         "type": "MAIN",
         "splits": [],
-        "versionCode": 1680967075,
-        "versionName": "4.6.0.5 (22d11cba)",
-        "outputFile": "ATAK-4.6.0.5-22d11cba-civ-debug.apk",
+        "versionCode": 1717564056,
+        "versionName": "4.6.0.5 (2db2fdf8)",
+        "outputFile": "ATAK-4.6.0.5-2db2fdf8-civ-debug.apk",
         "fullName": "civDebug",
         "baseName": "civ-debug",
         "dirName": ""

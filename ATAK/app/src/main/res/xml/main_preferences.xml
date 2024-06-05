@@ -34,6 +34,11 @@
                  android:key="atakAccounts"
                  android:summary="@string/accounts_desc"
                  android:icon="@drawable/passphrase" />
+             <Preference
+                 android:title="@string/trustmarks"
+                 android:key="atakTrustmarks"
+                 android:summary="@string/trustmarks_desc"
+                 android:icon="@drawable/passphrase" />
           </PreferenceCategory>
          <PreferenceCategory android:title="@string/help">
              <Preference android:title="@string/support"

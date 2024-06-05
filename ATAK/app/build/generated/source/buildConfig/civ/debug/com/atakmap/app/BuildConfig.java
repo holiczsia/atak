@@ -8,8 +8,8 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "com.atakmap.app.civ";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "civ";
-  public static final int VERSION_CODE = 1680967075;
-  public static final String VERSION_NAME = "4.6.0.5 (22d11cba)";
+  public static final int VERSION_CODE = 1717564056;
+  public static final String VERSION_NAME = "4.6.0.5 (2db2fdf8)";
   // Fields from build type: debug
   public static final String DEV_BANNER = "";
   // Fields from product flavor: civ

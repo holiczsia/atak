@@ -12,12 +12,12 @@
         "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/res/drawable/dialog_background.xml"
     },
     {
-        "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/xml_other_display_prefs.xml.flat",
-        "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/res/xml/other_display_prefs.xml"
-    },
-    {
         "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/drawable-xxhdpi_select_area_drawn_objects.png.flat",
         "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/generated/res/pngs/civ/debug/drawable-xxhdpi/select_area_drawn_objects.png"
+    },
+    {
+        "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/xml_other_display_prefs.xml.flat",
+        "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/res/xml/other_display_prefs.xml"
     },
     {
         "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/menu_main_menu.xml.flat",
@@ -64,16 +64,16 @@
         "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/res/drawable-ldpi/nav_point_dropper.png"
     },
     {
-        "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/drawable_ic_pref_self_coord_info.xml.flat",
-        "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/res/drawable/ic_pref_self_coord_info.xml"
+        "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/drawable-ldpi_plan_dip_lit.png.flat",
+        "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/res/drawable-ldpi/plan_dip_lit.png"
     },
     {
         "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/drawable_user_add.png.flat",
         "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/res/drawable/user_add.png"
     },
     {
-        "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/drawable-ldpi_plan_dip_lit.png.flat",
-        "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/res/drawable-ldpi/plan_dip_lit.png"
+        "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/drawable_ic_pref_self_coord_info.xml.flat",
+        "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/res/drawable/ic_pref_self_coord_info.xml"
     },
     {
         "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/drawable-mdpi_ic_menu_bloodhound.png.flat",
@@ -104,12 +104,12 @@
         "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/res/drawable-mdpi/nav_elevation.png"
     },
     {
-        "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/drawable-hdpi_select_area_drawn_objects.png.flat",
-        "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/generated/res/pngs/civ/debug/drawable-hdpi/select_area_drawn_objects.png"
-    },
-    {
         "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/drawable-xxxhdpi_row_straight.png.flat",
         "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/res/drawable-xxxhdpi/row_straight.png"
+    },
+    {
+        "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/drawable-hdpi_select_area_drawn_objects.png.flat",
+        "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/generated/res/pngs/civ/debug/drawable-hdpi/select_area_drawn_objects.png"
     },
     {
         "merged": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/res/merged/civ/debug/drawable-hdpi_ic_multiselect.png.flat",

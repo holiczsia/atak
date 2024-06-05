@@ -37,6 +37,11 @@
         android:icon="@drawable/passphrase"
         android:title="Accounts" />
    <Preference
+       android:key="trustmarks"
+       android:summary="@string/trustmarks_desc"
+       android:icon="@drawable/passphrase"
+       android:title="@string/trustmarks" />
+   <Preference
         android:key="documentation"
         android:summary="@string/preferences_text203"
         android:icon="@drawable/ic_menu_help"

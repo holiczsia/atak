@@ -12,6 +12,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.TextView;
+import com.atakmap.android.gui.WebViewer;
+
 
 import androidx.core.app.NavUtils;
 
@@ -61,7 +63,7 @@ public class AtakTrustmarksFragment extends AtakPreferenceFragment {
                             @Override
                             public boolean onPreferenceClick(
                                     Preference preference) {
-
+/*
                                 AlertDialog.Builder builder = new AlertDialog.Builder(
                                         context);
                                 File f = FileSystemUtils
@@ -83,6 +85,14 @@ public class AtakTrustmarksFragment extends AtakPreferenceFragment {
                                         .setView(v)
                                         .setPositiveButton(R.string.ok, null)
                                         .show();
+*/
+                                try {
+                                    WebViewer.show(
+                                            "file:///android_asset/trustmark/trustmark_test.xml",
+                                            context, 250);
+                                } catch (Exception e) {
+                                    Log.e(TAG, "error loading Trustmark", e);
+                                }
 
                                 return true;
                             }

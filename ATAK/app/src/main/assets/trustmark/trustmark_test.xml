@@ -1,0 +1,70 @@
+<tf:Trustmark tf:id="trustmark"
+  xmlns:tf="https://trustmarkinitiative.org/specifications/trustmark-framework/1.4/schema/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:my="https://my.example/"
+  xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:Signature>
+  <!-- The example omits the XML signature content. -->
+  </ds:Signature>
+  <tf:Identifier>https://provider.example/trustmark/1</tf:Identifier>
+  <tf:TrustmarkDefinitionReference>
+    <tf:Identifier>
+https://artifacts.trustmarkinitiative.org/lib/trustmark-
+definitions/ficam-privacy-minimal-attribute-release-requirements-for-
+csps-and-bae-responders/1.0/
+    </tf:Identifier>
+    <tf:Name>
+      FICAM Privacy Minimal Attribute Release Requirements for CSPs and BAE Responders
+    </tf:Name>
+    <tf:Version>1.0</tf:Version>
+    <tf:Description>
+      This TD adopts the LOA 2 and LOA 3 Privacy Minimalism trust criteria of the FICAM Trust Framework Provider Adoption Process.
+    </tf:Description>
+  </tf:TrustmarkDefinitionReference>
+  <tf:IssueDateTime>2014-01-01T00:00:00</tf:IssueDateTime>
+  <tf:ExpirationDateTime>20015-01-01T00:00:00</tf:ExpirationDateTime>
+  <tf:PolicyURL>https://provider.example/policy</tf:PolicyURL>
+  <tf:RelyingPartyAgreementURL>
+https://provider.example/relying-party-agreement
+  </tf:RelyingPartyAgreementURL>
+  <tf:StatusURL>
+https://provider.example/trustmark/1/status
+  </tf:StatusURL>
+  <tf:Provider>
+    <tf:Identifier>https://provider.example/</tf:Identifier>
+    <tf:Name>Example Provider</tf:Name>
+    <tf:Contact>
+      <tf:Kind>PRIMARY</tf:Kind>
+      <tf:Responder>George P. Burdell</tf:Responder>
+      <tf:Email>contact@provider.example</tf:Email>
+      <tf:Telephone>404-555-1234</tf:Telephone>
+      <tf:WebsiteURL>https://provider.example</tf:WebsiteURL>
+      <tf:Notes>The responder may change.</tf:Notes>
+    </tf:Contact>
+  </tf:Provider>
+  <tf:Recipient>
+    <tf:Identifier>https://recipient.example</tf:Identifier>
+    <tf:Name>Example Recipient</tf:Name>
+    <tf:Contact>
+      <tf:Kind>PRIMARY</tf:Kind>
+      <tf:Responder>Burdell P. George</tf:Responder>
+      <tf:Email>contact@recipient.example</tf:Email>
+      <tf:Telephone>404-555-4321</tf:Telephone>
+      <tf:WebsiteURL>https://recipient.example/</tf:WebsiteURL>
+      <tf:Notes>The responder may change.</tf:Notes>
+    </tf:Contact>
+  </tf:Recipient>
+  <tf:ExceptionInfo>
+[Descriptive text about exceptions (if any) goes here.]
+  </tf:ExceptionInfo>
+<tf:DefinitionExtension>
+    <my:DefinitionExtension>
+      This is additional XML content about the Trustmark, as required by the Trustmark Definition.
+    </my:DefinitionExtension>
+  </tf:DefinitionExtension>
+  <tf:ProviderExtension>
+    <my:ProviderExtension>
+      This is additional XML content about the Trustmark, as provided by the Trustmark Provider.
+    </my:ProviderExtension>
+  </tf:ProviderExtension>
+</tf:Trustmark>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/pgscmobilevid.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/pgscmobilevid.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,632 @@
+-- Merging decision tree log ---
+meta-data#plugin-api
+INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:195:9-81
+	android:value
+		INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:195:46-79
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:195:20-45
+provider#androidx.core.content.FileProvider
+INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:254:9-262:20
+	android:grantUriPermissions
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:258:13-47
+	android:authorities
+		INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:256:13-60
+	android:exported
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:257:13-37
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:255:13-62
+manifest
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:2:1-403:12
+INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:2:1-403:12
+INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:2:1-403:12
+INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:2:1-403:12
+MERGED from [:takkernel:shared] /home/radu/AndroidTacticalAssaultKit-CIV/takkernel/shared/build/android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:takkernel:engine] /home/radu/AndroidTacticalAssaultKit-CIV/takkernel/engine/build/android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:takkernel:port] /home/radu/AndroidTacticalAssaultKit-CIV/takkernel/port/build/android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:takkernel:annotation] /home/radu/AndroidTacticalAssaultKit-CIV/takkernel/annotation/build/android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/radu/.gradle/caches/transforms-3/5391c1e05f8f53b2120d9b3594e9e1d9/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/radu/.gradle/caches/transforms-3/8b8ece773311edac41c98fb9d55124e8/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/radu/.gradle/caches/transforms-3/fc6783c5a66a1d748da54e959085741e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:17:1-32:12
+MERGED from [gov.tak.thirdparty:takthirdparty:2.6.1] /home/radu/.gradle/caches/transforms-3/9b4ff7606fa1dfe55f1a6e3611ee6a38/transformed/takthirdparty-2.6.1/AndroidManifest.xml:2:1-13:12
+MERGED from [gov.tak.thirdparty:libLAS:1.8.2c] /home/radu/.gradle/caches/transforms-3/1283ad846125d18fb53dfd6f3f55cea9/transformed/libLAS-1.8.2c/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/radu/.gradle/caches/transforms-3/bab837369b7fb3e0b765f1dc9ad09ad6/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/radu/.gradle/caches/transforms-3/1af58e97b0968c68d8c49dba94cd59d5/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.4] /home/radu/.gradle/caches/transforms-3/10d17f48191d3f9d31c618e5957982ba/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/radu/.gradle/caches/transforms-3/bdb9abfaccf6aa0b21c46c42ed60e2a0/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0] /home/radu/.gradle/caches/transforms-3/8e7a285630fcf9d9ba599bd2b2411ba1/transformed/core-1.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/radu/.gradle/caches/transforms-3/1be8753034059c7ec7d085e303f3ec2e/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/radu/.gradle/caches/transforms-3/db891d392ea7332b464a97d93b5215f1/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/radu/.gradle/caches/transforms-3/9d99bfcff8b8fecc1496feea62e6a25d/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/radu/.gradle/caches/transforms-3/4ea324f98e887fae163ee9a23ac9884c/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/radu/.gradle/caches/transforms-3/db3f4ffe3a200d06e2a085d992a58f13/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/radu/.gradle/caches/transforms-3/e90c9b3471bbe0a80293aa35d461d87a/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/radu/.gradle/caches/transforms-3/a1be5f222d7bd1b172487ea9f0e51ca7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/radu/.gradle/caches/transforms-3/407df4ab1df2de7f32cea90fad3cc79b/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/radu/.gradle/caches/transforms-3/3fad83761cf4ba08d72e1716b70c8b41/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/radu/.gradle/caches/transforms-3/0c9a16b01b7ca0f915374b19f5ddda4c/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:2:1-403:12
+INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:2:1-403:12
+INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:2:1-403:12
+	package
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+		INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:2:1-403:12
+		INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:2:1-403:12
+		INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.DEVICE_POWER
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:8:5-9:60
+	tools:ignore
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:9:22-57
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.CAMERA
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:15:22-62
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:20:5-109
+	tools:ignore
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:20:71-106
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:20:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:24:22-63
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:28:5-72
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:28:22-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:33:5-67
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:33:22-64
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:36:5-79
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:36:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:41:5-79
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:41:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:46:5-67
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:46:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:51:5-73
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:51:22-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:55:5-81
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:55:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:62:5-80
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:62:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:66:5-79
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:66:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:67:5-88
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:67:22-86
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:70:5-85
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:70:22-82
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:73:5-76
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:73:22-73
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:74:5-86
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:74:22-83
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:79:5-75
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:79:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:83:5-68
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:83:22-65
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:84:5-75
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:84:22-72
+uses-permission#android.permission.GET_TASKS
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:85:5-68
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:85:22-65
+uses-permission#android.permission.SEND_SMS
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:92:5-66
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:92:22-64
+uses-permission#android.permission.NFC
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:95:5-61
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:95:22-59
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:100:5-94
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:100:22-92
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:103:5-82
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:103:22-80
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:106:5-76
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:106:22-74
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:109:5-75
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:109:22-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:113:5-71
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:113:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:117:5-80
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:117:22-77
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:120:5-111
+	tools:ignore
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:120:73-108
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:120:22-72
+permission#com.atakmap.app.ALLOW_TEXT_SPEECH
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:125:5-127:46
+	android:label
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:126:9-43
+	android:protectionLevel
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:127:9-44
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:125:17-65
+uses-permission#com.atakmap.app.ALLOW_TEXT_SPEECH
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:128:5-72
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:128:22-70
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:133:5-113
+	tools:ignore
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:133:76-111
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:133:22-75
+uses-permission#android.permission.INTERACT_ACROSS_USERS
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:136:5-115
+	tools:ignore
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:136:78-113
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:136:22-77
+uses-permission#android.permission.REQUEST_DELETE_PACKAGES
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:139:5-81
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:139:22-79
+uses-feature#android.hardware.camera
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:141:5-60
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:141:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:142:5-70
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:142:19-67
+uses-feature#android.hardware.usb.host
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:143:5-62
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:143:19-59
+uses-feature#android.hardware.usb.accessory
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:144:5-67
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:144:19-64
+uses-feature#0x00030000
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:147:5-78
+	android:glEsVersion
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:147:19-51
+	android:required
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:147:52-75
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:150:5-82
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:150:22-79
+uses-permission#android.permission.READ_PHONE_NUMBERS
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:153:5-77
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:153:22-74
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:157:5-158:53
+	tools:ignore
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:158:9-50
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:157:22-74
+queries
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:162:5-166:15
+intent
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:163:9-165:18
+action#com.atakmap.app.component
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:164:13-64
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:164:21-61
+application
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:182:5-402:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:24:5-30:19
+MERGED from [gov.tak.thirdparty:takthirdparty:2.6.1] /home/radu/.gradle/caches/transforms-3/9b4ff7606fa1dfe55f1a6e3611ee6a38/transformed/takthirdparty-2.6.1/AndroidManifest.xml:11:5-20
+MERGED from [gov.tak.thirdparty:takthirdparty:2.6.1] /home/radu/.gradle/caches/transforms-3/9b4ff7606fa1dfe55f1a6e3611ee6a38/transformed/takthirdparty-2.6.1/AndroidManifest.xml:11:5-20
+MERGED from [gov.tak.thirdparty:libLAS:1.8.2c] /home/radu/.gradle/caches/transforms-3/1283ad846125d18fb53dfd6f3f55cea9/transformed/libLAS-1.8.2c/AndroidManifest.xml:11:5-20
+MERGED from [gov.tak.thirdparty:libLAS:1.8.2c] /home/radu/.gradle/caches/transforms-3/1283ad846125d18fb53dfd6f3f55cea9/transformed/libLAS-1.8.2c/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.2.0] /home/radu/.gradle/caches/transforms-3/8e7a285630fcf9d9ba599bd2b2411ba1/transformed/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /home/radu/.gradle/caches/transforms-3/8e7a285630fcf9d9ba599bd2b2411ba1/transformed/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/radu/.gradle/caches/transforms-3/1be8753034059c7ec7d085e303f3ec2e/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/radu/.gradle/caches/transforms-3/1be8753034059c7ec7d085e303f3ec2e/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:183:9-52
+	android:extractNativeLibs
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:189:9-41
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0] /home/radu/.gradle/caches/transforms-3/8e7a285630fcf9d9ba599bd2b2411ba1/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:193:9-36
+	android:label
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:185:9-41
+	android:hardwareAccelerated
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:184:9-43
+	android:icon
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:188:9-50
+	android:allowBackup
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:192:9-36
+	android:description
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:191:9-47
+	android:theme
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:186:9-50
+	android:usesCleartextTraffic
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:190:9-44
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:187:9-55
+meta-data#app_desc
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:196:9-78
+	android:value
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:196:44-76
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:196:20-43
+meta-data#com.samsung.android.keepalive.density
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:200:9-95
+	android:value
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:200:73-93
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:200:20-72
+meta-data#android.max_aspect
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:203:9-76
+	android:value
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:203:54-73
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:203:20-53
+activity#com.atakmap.app.ATAKActivity
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:206:9-220:20
+	android:screenOrientation
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:216:13-49
+	android:label
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:213:13-45
+	android:launchMode
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:208:13-44
+	android:windowSoftInputMode
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:215:13-52
+	android:configChanges
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:206:9-220:20
+	android:theme
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:214:13-45
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:207:13-41
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:217:13-219:29
+action#android.intent.action.MAIN
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:218:17-69
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:218:25-66
+activity-alias#com.atakmap.app.ATAKActivityMil
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:223:9-232:26
+	android:enabled
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:227:13-36
+	android:targetActivity
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:224:13-51
+	android:icon
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:226:13-58
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:225:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:228:13-231:29
+category#android.intent.category.LAUNCHER
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:230:17-77
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:230:27-74
+activity-alias#com.atakmap.app.ATAKActivityCiv
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:235:9-244:26
+	android:enabled
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:239:13-35
+	android:targetActivity
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:236:13-51
+	android:icon
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:238:13-54
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:237:13-44
+provider#plugins.host.provider.PluginProvider
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:249:9-251:46
+	android:authorities
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:250:19-73
+	android:exported
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:251:19-43
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:249:19-70
+activity#com.atakmap.android.maps.ImportFileActivity
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:266:9-310:20
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:267:13-71
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:mimeType:*/*+data:pathPattern:.*\\.cot+data:pathPattern:.*\\.csv+data:pathPattern:.*\\.dpkg+data:pathPattern:.*\\.drw+data:pathPattern:.*\\.gpx+data:pathPattern:.*\\.inf+data:pathPattern:.*\\.kml+data:pathPattern:.*\\.kmz+data:pathPattern:.*\\.lpt+data:pathPattern:.*\\.nitf+data:pathPattern:.*\\.ntf+data:pathPattern:.*\\.pref+data:pathPattern:.*\\.shp+data:pathPattern:.*\\.shpz+data:pathPattern:.*\\.sid+data:pathPattern:.*\\.sqlite+data:pathPattern:.*\\.tif+data:pathPattern:.*\\.txt+data:pathPattern:.*\\.xml+data:pathPattern:.*\\.zip
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:268:13-303:29
+	android:label
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:268:28-60
+action#android.intent.action.SEND
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:270:17-69
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:270:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:273:17-76
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:273:27-73
+data
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+	android:host
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+	android:scheme
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:307:23-47
+	android:pathPattern
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+	android:mimeType
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/octet-stream+data:scheme:content
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:304:13-309:29
+	android:label
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:304:28-60
+action#android.intent.action.VIEW
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:305:17-69
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:305:25-66
+activity#com.atakmap.android.video.legacy.Gv2FMobilePlayer
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:311:9-314:50
+	android:screenOrientation
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:314:13-47
+	android:configChanges
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:313:13-48
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:312:13-77
+activity#com.atakmap.comms.app.CotInputsListActivity
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:315:9-318:50
+	android:screenOrientation
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:318:13-47
+	android:configChanges
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:317:13-48
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:316:13-71
+activity#com.atakmap.comms.app.AddNetInfoActivity
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:319:9-322:50
+	android:screenOrientation
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:322:13-47
+	android:configChanges
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:321:13-48
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:320:13-68
+activity#com.atakmap.comms.app.CotStreamListActivity
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:323:9-326:50
+	android:screenOrientation
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:326:13-47
+	android:configChanges
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:325:13-48
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:324:13-71
+activity#com.atakmap.android.cot.TadilJListActivity
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:327:9-330:50
+	android:screenOrientation
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:330:13-47
+	android:configChanges
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:329:13-48
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:328:13-70
+activity#com.atakmap.comms.app.CotOutputsListActivity
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:331:9-334:50
+	android:screenOrientation
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:334:13-47
+	android:configChanges
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:333:13-48
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:332:13-72
+activity#com.atakmap.android.drawing.KmlImportListActivity
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:335:9-338:50
+	android:screenOrientation
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:338:13-47
+	android:configChanges
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:337:13-48
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:336:13-77
+activity#com.atakmap.app.SettingsActivity
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:339:9-346:20
+	android:screenOrientation
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:342:13-47
+	android:configChanges
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:341:13-48
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:340:13-60
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:343:13-345:49
+	android:value
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:345:17-46
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:344:17-63
+activity#com.atakmap.app.preferences.LocationSettingsActivity
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:347:9-354:20
+	android:screenOrientation
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:350:13-47
+	android:configChanges
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:349:13-48
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:348:13-80
+activity#com.atakmap.app.preferences.NetworkSettingsActivity
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:355:9-362:20
+	android:screenOrientation
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:358:13-47
+	android:configChanges
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:357:13-48
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:356:13-79
+activity#com.atakmap.app.preferences.AppMgmtSettingsActivity
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:363:9-370:20
+	android:screenOrientation
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:366:13-47
+	android:configChanges
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:365:13-48
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:364:13-79
+activity#com.atakmap.android.update.AppMgmtActivity
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:372:9-379:20
+	android:screenOrientation
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:375:13-47
+	android:uiOptions
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:373:13-57
+	android:configChanges
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:374:13-48
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:372:19-76
+service#com.atakmap.app.BackgroundServices
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:384:9-94
+	android:exported
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:384:68-92
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:384:18-67
+service#com.atakmap.android.http.rest.HTTPRequestService
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:386:9-109
+	android:exported
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:386:82-106
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:386:18-81
+service#com.atakmap.android.layers.wms.DownloadAndCacheService
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:387:9-115
+	android:exported
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:387:88-112
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:387:18-87
+receiver#com.atakmap.android.image.ImageEditReceiver
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:392:9-396:20
+	android:exported
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:392:78-101
+	tools:ignore
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:392:102-133
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:392:19-77
+intent-filter#action:name:com.atakmap.maps.images.REFRESH
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:393:13-395:29
+action#com.atakmap.maps.images.REFRESH
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:394:17-73
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:394:25-71
+uses-library#org.apache.http.legacy
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:400:9-87
+	android:required
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:400:61-85
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:400:23-60
+uses-sdk
+INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+MERGED from [:takkernel:shared] /home/radu/AndroidTacticalAssaultKit-CIV/takkernel/shared/build/android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:takkernel:shared] /home/radu/AndroidTacticalAssaultKit-CIV/takkernel/shared/build/android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:takkernel:engine] /home/radu/AndroidTacticalAssaultKit-CIV/takkernel/engine/build/android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:takkernel:engine] /home/radu/AndroidTacticalAssaultKit-CIV/takkernel/engine/build/android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:takkernel:port] /home/radu/AndroidTacticalAssaultKit-CIV/takkernel/port/build/android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:takkernel:port] /home/radu/AndroidTacticalAssaultKit-CIV/takkernel/port/build/android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:takkernel:annotation] /home/radu/AndroidTacticalAssaultKit-CIV/takkernel/annotation/build/android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:takkernel:annotation] /home/radu/AndroidTacticalAssaultKit-CIV/takkernel/annotation/build/android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/radu/.gradle/caches/transforms-3/5391c1e05f8f53b2120d9b3594e9e1d9/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/radu/.gradle/caches/transforms-3/5391c1e05f8f53b2120d9b3594e9e1d9/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/radu/.gradle/caches/transforms-3/8b8ece773311edac41c98fb9d55124e8/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/radu/.gradle/caches/transforms-3/8b8ece773311edac41c98fb9d55124e8/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/radu/.gradle/caches/transforms-3/fc6783c5a66a1d748da54e959085741e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/radu/.gradle/caches/transforms-3/fc6783c5a66a1d748da54e959085741e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [gov.tak.thirdparty:takthirdparty:2.6.1] /home/radu/.gradle/caches/transforms-3/9b4ff7606fa1dfe55f1a6e3611ee6a38/transformed/takthirdparty-2.6.1/AndroidManifest.xml:7:5-9:41
+MERGED from [gov.tak.thirdparty:takthirdparty:2.6.1] /home/radu/.gradle/caches/transforms-3/9b4ff7606fa1dfe55f1a6e3611ee6a38/transformed/takthirdparty-2.6.1/AndroidManifest.xml:7:5-9:41
+MERGED from [gov.tak.thirdparty:libLAS:1.8.2c] /home/radu/.gradle/caches/transforms-3/1283ad846125d18fb53dfd6f3f55cea9/transformed/libLAS-1.8.2c/AndroidManifest.xml:7:5-9:41
+MERGED from [gov.tak.thirdparty:libLAS:1.8.2c] /home/radu/.gradle/caches/transforms-3/1283ad846125d18fb53dfd6f3f55cea9/transformed/libLAS-1.8.2c/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/radu/.gradle/caches/transforms-3/bab837369b7fb3e0b765f1dc9ad09ad6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/radu/.gradle/caches/transforms-3/bab837369b7fb3e0b765f1dc9ad09ad6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/radu/.gradle/caches/transforms-3/1af58e97b0968c68d8c49dba94cd59d5/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/radu/.gradle/caches/transforms-3/1af58e97b0968c68d8c49dba94cd59d5/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.4] /home/radu/.gradle/caches/transforms-3/10d17f48191d3f9d31c618e5957982ba/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/radu/.gradle/caches/transforms-3/10d17f48191d3f9d31c618e5957982ba/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/radu/.gradle/caches/transforms-3/bdb9abfaccf6aa0b21c46c42ed60e2a0/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/radu/.gradle/caches/transforms-3/bdb9abfaccf6aa0b21c46c42ed60e2a0/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0] /home/radu/.gradle/caches/transforms-3/8e7a285630fcf9d9ba599bd2b2411ba1/transformed/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /home/radu/.gradle/caches/transforms-3/8e7a285630fcf9d9ba599bd2b2411ba1/transformed/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/radu/.gradle/caches/transforms-3/1be8753034059c7ec7d085e303f3ec2e/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/radu/.gradle/caches/transforms-3/1be8753034059c7ec7d085e303f3ec2e/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/radu/.gradle/caches/transforms-3/db891d392ea7332b464a97d93b5215f1/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/radu/.gradle/caches/transforms-3/db891d392ea7332b464a97d93b5215f1/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/radu/.gradle/caches/transforms-3/9d99bfcff8b8fecc1496feea62e6a25d/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/radu/.gradle/caches/transforms-3/9d99bfcff8b8fecc1496feea62e6a25d/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/radu/.gradle/caches/transforms-3/4ea324f98e887fae163ee9a23ac9884c/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/radu/.gradle/caches/transforms-3/4ea324f98e887fae163ee9a23ac9884c/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/radu/.gradle/caches/transforms-3/db3f4ffe3a200d06e2a085d992a58f13/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/radu/.gradle/caches/transforms-3/db3f4ffe3a200d06e2a085d992a58f13/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/radu/.gradle/caches/transforms-3/e90c9b3471bbe0a80293aa35d461d87a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/radu/.gradle/caches/transforms-3/e90c9b3471bbe0a80293aa35d461d87a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/radu/.gradle/caches/transforms-3/a1be5f222d7bd1b172487ea9f0e51ca7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/radu/.gradle/caches/transforms-3/a1be5f222d7bd1b172487ea9f0e51ca7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/radu/.gradle/caches/transforms-3/407df4ab1df2de7f32cea90fad3cc79b/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/radu/.gradle/caches/transforms-3/407df4ab1df2de7f32cea90fad3cc79b/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/radu/.gradle/caches/transforms-3/3fad83761cf4ba08d72e1716b70c8b41/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/radu/.gradle/caches/transforms-3/3fad83761cf4ba08d72e1716b70c8b41/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/radu/.gradle/caches/transforms-3/0c9a16b01b7ca0f915374b19f5ddda4c/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/radu/.gradle/caches/transforms-3/0c9a16b01b7ca0f915374b19f5ddda4c/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+		INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+		INJECTED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:259:13-261:57
+	android:resource
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:261:17-55
+	android:name
+		ADDED from /home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:260:17-67
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:26:13-79

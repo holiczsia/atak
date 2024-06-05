@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ATAK.iml" filepath="$PROJECT_DIR$/.idea/modules/ATAK.iml" group="ATAK" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1859447442/annotation.iml" filepath="$PROJECT_DIR$/.idea/modules/1859447442/annotation.iml" group="ATAK/takkernel/annotation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="ATAK/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-84794587/engine.iml" filepath="$PROJECT_DIR$/.idea/modules/-84794587/engine.iml" group="ATAK/takkernel/engine" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1782997468/port.iml" filepath="$PROJECT_DIR$/.idea/modules/-1782997468/port.iml" group="ATAK/takkernel/port" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/310302024/shared.iml" filepath="$PROJECT_DIR$/.idea/modules/310302024/shared.iml" group="ATAK/takkernel/shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1799946892/takkernel.iml" filepath="$PROJECT_DIR$/.idea/modules/1799946892/takkernel.iml" group="ATAK/takkernel" />
+    </modules>
+  </component>
+</project>

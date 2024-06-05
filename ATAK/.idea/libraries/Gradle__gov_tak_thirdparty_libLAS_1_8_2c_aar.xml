@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: gov.tak.thirdparty:libLAS:1.8.2c@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1283ad846125d18fb53dfd6f3f55cea9/transformed/libLAS-1.8.2c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1283ad846125d18fb53dfd6f3f55cea9/transformed/libLAS-1.8.2c/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

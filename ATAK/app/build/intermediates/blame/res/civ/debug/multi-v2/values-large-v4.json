@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/build/intermediates/incremental/mergeCivDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/res/values-large/strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "124,55",
+                        "endColumns": "51,68",
+                        "endOffsets": "171,119"
+                    },
+                    "to": {
+                        "startLines": "14,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "615,667",
+                        "endColumns": "51,68",
+                        "endOffsets": "662,731"
+                    }
+                },
+                {
+                    "source": "/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/res/values-large/dimen.xml",
+                    "from": {
+                        "startLines": "20,8,6,9,7,3,13,12,11,17,18,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "669,283,185,326,234,56,472,427,380,570,619,522",
+                        "endColumns": "43,42,48,48,48,39,48,44,46,48,48,46",
+                        "endOffsets": "708,321,229,370,278,91,516,467,422,614,663,564"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,142,191,240,289,329,378,423,470,519,568",
+                        "endColumns": "43,42,48,48,48,39,48,44,46,48,48,46",
+                        "endOffsets": "94,137,186,235,284,324,373,418,465,514,563,610"
+                    }
+                }
+            ]
+        }
+    ]
+}

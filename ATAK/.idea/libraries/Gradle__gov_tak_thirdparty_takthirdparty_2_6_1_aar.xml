@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: gov.tak.thirdparty:takthirdparty:2.6.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9b4ff7606fa1dfe55f1a6e3611ee6a38/transformed/takthirdparty-2.6.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9b4ff7606fa1dfe55f1a6e3611ee6a38/transformed/takthirdparty-2.6.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9b4ff7606fa1dfe55f1a6e3611ee6a38/transformed/takthirdparty-2.6.1/jars/libs/gdal.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9b4ff7606fa1dfe55f1a6e3611ee6a38/transformed/takthirdparty-2.6.1/jars/libs/gdaldata.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9b4ff7606fa1dfe55f1a6e3611ee6a38/transformed/takthirdparty-2.6.1/jars/libs/jcommoncommo.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9b4ff7606fa1dfe55f1a6e3611ee6a38/transformed/takthirdparty-2.6.1/jars/libs/jassimp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

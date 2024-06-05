@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+      <PreferenceCategory android:title="Device Preferences">
+        <com.atakmap.android.gui.PanEditTextPreference
+            android:title="@string/my_callsign"
+            android:inputType="textUri"
+            android:summary="@string/callsign_pref_summary"
+            android:key="locationCallsign" />
+        <com.atakmap.android.gui.PanListPreference
+            android:entryValues="@array/squad_values"
+            android:entries="@array/squad_names"
+            android:summary="@string/preferences_text78"
+            android:key="locationTeam"
+            android:title="@string/preferences_text79"
+            android:defaultValue="Cyan" />
+        <com.atakmap.android.gui.PanListPreference
+            android:entryValues="@array/role_values" 
+            android:entries="@array/role_values"
+            android:summary="@string/preferences_text80"
+            android:key="atakRoleType" 
+            android:title="@string/preferences_text81"
+            android:defaultValue="@string/preferences_text82" />
+        <com.atakmap.android.gui.PanListPreference
+            android:entryValues="@array/type_values" 
+            android:entries="@array/type_names"
+            android:summary="@string/preferences_text83"
+            android:key="locationUnitType" 
+            android:title="@string/preferences_text84"
+            android:defaultValue="@string/default_cot_type" />
+       <Preference android:title="@string/networkGpsPreferences"
+            android:key="gpsSettings"
+            android:summary="@string/preferences_text267"
+            android:icon="@drawable/ic_menu_compass" />
+       <Preference android:title="Laser Range Finder Preferences"
+            android:key="lrfSettings"
+            android:summary="Adjust the Laser Range Finder Preferences"
+            android:icon="@drawable/lrf_slide" />
+        <com.atakmap.android.gui.PanCheckBoxPreference
+            android:title="@string/wave_relay_callsign"
+            android:key="locationUseWRCallsign"
+            android:defaultValue="false"
+            android:summary="@string/wave_relay_callsign_summary" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

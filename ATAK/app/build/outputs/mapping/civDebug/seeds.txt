@@ -1,0 +1,370 @@
+android.support.v4.app.RemoteActionCompatParcelizer
+android.support.v4.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
+android.support.v4.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
+android.support.v4.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
+android.support.v4.graphics.drawable.IconCompatParcelizer
+android.support.v4.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
+android.support.v4.graphics.drawable.IconCompatParcelizer: androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel)
+android.support.v4.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.activity.ComponentActivity: ComponentActivity()
+androidx.activity.ComponentActivity$3
+androidx.activity.ComponentActivity$4
+androidx.activity.ComponentActivity$5
+androidx.activity.ImmLeaksCleaner
+androidx.activity.OnBackPressedDispatcher$LifecycleOnBackPressedCancellable
+androidx.activity.result.ActivityResultRegistry$1
+androidx.annotation.Keep
+androidx.core.app.ComponentActivity: ComponentActivity()
+androidx.core.app.CoreComponentFactory
+androidx.core.app.CoreComponentFactory: CoreComponentFactory()
+androidx.core.app.RemoteActionCompat
+androidx.core.app.RemoteActionCompatParcelizer
+androidx.core.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
+androidx.core.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.core.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.core.content.FileProvider
+androidx.core.content.FileProvider: FileProvider()
+androidx.core.graphics.drawable.IconCompat
+androidx.core.graphics.drawable.IconCompatParcelizer
+androidx.core.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
+androidx.core.graphics.drawable.IconCompatParcelizer: androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.core.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.exifinterface.media.ExifInterfaceUtils$Api21Impl: java.io.FileDescriptor dup(java.io.FileDescriptor)
+androidx.exifinterface.media.ExifInterfaceUtils$Api21Impl: long lseek(java.io.FileDescriptor,long,int)
+androidx.exifinterface.media.ExifInterfaceUtils$Api21Impl: void close(java.io.FileDescriptor)
+androidx.exifinterface.media.ExifInterfaceUtils$Api23Impl: void setDataSource(android.media.MediaMetadataRetriever,android.media.MediaDataSource)
+androidx.fragment.app.DialogFragment
+androidx.fragment.app.DialogFragment: DialogFragment()
+androidx.fragment.app.Fragment: Fragment()
+androidx.fragment.app.Fragment$5
+androidx.fragment.app.FragmentActivity: FragmentActivity()
+androidx.fragment.app.FragmentManager$6
+androidx.fragment.app.ListFragment
+androidx.fragment.app.ListFragment: ListFragment()
+androidx.lifecycle.CompositeGeneratedAdaptersObserver
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: EmptyActivityLifecycleCallbacks()
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityStarted(android.app.Activity)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityResumed(android.app.Activity)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityPaused(android.app.Activity)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityStopped(android.app.Activity)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityDestroyed(android.app.Activity)
+androidx.lifecycle.FullLifecycleObserverAdapter
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_CREATE
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_START
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_RESUME
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_PAUSE
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_STOP
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_DESTROY
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_ANY
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event[] $VALUES
+androidx.lifecycle.LifecycleDispatcher$DispatcherActivityCallback: LifecycleDispatcher$DispatcherActivityCallback()
+androidx.lifecycle.LifecycleDispatcher$DispatcherActivityCallback: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.lifecycle.LifecycleDispatcher$DispatcherActivityCallback: void onActivityStopped(android.app.Activity)
+androidx.lifecycle.LifecycleDispatcher$DispatcherActivityCallback: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+androidx.lifecycle.Lifecycling$1
+androidx.lifecycle.LiveData$LifecycleBoundObserver
+androidx.lifecycle.ProcessLifecycleOwner$3: androidx.lifecycle.ProcessLifecycleOwner this$0
+androidx.lifecycle.ProcessLifecycleOwner$3: ProcessLifecycleOwner$3(androidx.lifecycle.ProcessLifecycleOwner)
+androidx.lifecycle.ProcessLifecycleOwner$3: void onActivityPreCreated(android.app.Activity,android.os.Bundle)
+androidx.lifecycle.ProcessLifecycleOwner$3: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.lifecycle.ProcessLifecycleOwner$3: void onActivityPaused(android.app.Activity)
+androidx.lifecycle.ProcessLifecycleOwner$3: void onActivityStopped(android.app.Activity)
+androidx.lifecycle.ProcessLifecycleOwner$3$1: androidx.lifecycle.ProcessLifecycleOwner$3 this$1
+androidx.lifecycle.ProcessLifecycleOwner$3$1: ProcessLifecycleOwner$3$1(androidx.lifecycle.ProcessLifecycleOwner$3)
+androidx.lifecycle.ProcessLifecycleOwner$3$1: void onActivityPostStarted(android.app.Activity)
+androidx.lifecycle.ProcessLifecycleOwner$3$1: void onActivityPostResumed(android.app.Activity)
+androidx.lifecycle.ProcessLifecycleOwnerInitializer
+androidx.lifecycle.ProcessLifecycleOwnerInitializer: ProcessLifecycleOwnerInitializer()
+androidx.lifecycle.ReflectiveGenericLifecycleObserver
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: ReportFragment$LifecycleCallbacks()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void registerIn(android.app.Activity)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPostCreated(android.app.Activity,android.os.Bundle)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityStarted(android.app.Activity)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPostStarted(android.app.Activity)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityResumed(android.app.Activity)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPostResumed(android.app.Activity)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPrePaused(android.app.Activity)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPaused(android.app.Activity)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPreStopped(android.app.Activity)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityStopped(android.app.Activity)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPreDestroyed(android.app.Activity)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityDestroyed(android.app.Activity)
+androidx.lifecycle.SavedStateHandleController
+androidx.lifecycle.SavedStateHandleController$1
+androidx.lifecycle.SavedStateHandleController$OnRecreation: SavedStateHandleController$OnRecreation()
+androidx.lifecycle.SingleGeneratedAdapterObserver
+androidx.lifecycle.ViewModel: ViewModel()
+androidx.loader.app.LoaderManagerImpl$LoaderViewModel: LoaderManagerImpl$LoaderViewModel()
+androidx.savedstate.Recreator
+androidx.savedstate.SavedStateRegistry$1
+androidx.versionedparcelable.CustomVersionedParcelable
+androidx.versionedparcelable.ParcelImpl
+androidx.viewpager.widget.PagerTabStrip
+androidx.viewpager.widget.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+androidx.viewpager.widget.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+androidx.viewpager.widget.ViewPager
+androidx.viewpager.widget.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.bpha.BPHAGridView
+com.atakmap.android.bpha.BPHAGridView: BPHAGridView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.chat.ConversationFragment
+com.atakmap.android.chat.ConversationFragment: ConversationFragment()
+com.atakmap.android.chat.ModePicker
+com.atakmap.android.chat.ModePicker: ModePicker(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.contact.ContactConnectorsView
+com.atakmap.android.contact.ContactConnectorsView: ContactConnectorsView()
+com.atakmap.android.contact.ContactDetailView
+com.atakmap.android.contact.ContactDetailView: ContactDetailView()
+com.atakmap.android.contact.ContactLocationView
+com.atakmap.android.contact.ContactLocationView: ContactLocationView()
+com.atakmap.android.contact.ContactProfileView
+com.atakmap.android.contact.ContactProfileView: ContactProfileView()
+com.atakmap.android.cot.TadilJListActivity
+com.atakmap.android.cot.TadilJListActivity: TadilJListActivity()
+com.atakmap.android.cotdetails.CoTInfoView
+com.atakmap.android.cotdetails.CoTInfoView: CoTInfoView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.cotdetails.extras.ExtraDetailsLayout
+com.atakmap.android.cotdetails.extras.ExtraDetailsLayout: ExtraDetailsLayout(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.cotdetails.sensor.SensorDetailsView
+com.atakmap.android.cotdetails.sensor.SensorDetailsView: SensorDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.drawing.KmlImportListActivity
+com.atakmap.android.drawing.KmlImportListActivity: KmlImportListActivity()
+com.atakmap.android.drawing.details.CircleDetailsView
+com.atakmap.android.drawing.details.CircleDetailsView: CircleDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.drawing.details.EllipseDetailsView
+com.atakmap.android.drawing.details.EllipseDetailsView: EllipseDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.drawing.details.GenericDetailsView: GenericDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.drawing.details.GenericPointDetailsView
+com.atakmap.android.drawing.details.GenericPointDetailsView: GenericPointDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.drawing.details.MultiPolylineDetailsView
+com.atakmap.android.drawing.details.MultiPolylineDetailsView: MultiPolylineDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.drawing.details.RectangleDetailsView
+com.atakmap.android.drawing.details.RectangleDetailsView: RectangleDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.drawing.details.ShapeDetailsView
+com.atakmap.android.drawing.details.ShapeDetailsView: ShapeDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.dropdown.GenericFragmentAdapter
+com.atakmap.android.dropdown.GenericFragmentAdapter: GenericFragmentAdapter()
+com.atakmap.android.features.FeatureEditDetailsView
+com.atakmap.android.features.FeatureEditDetailsView: FeatureEditDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.AutoSizeTextView
+com.atakmap.android.gui.AutoSizeTextView: AutoSizeTextView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.ColorButton
+com.atakmap.android.gui.ColorButton: ColorButton(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.CoordDialogView
+com.atakmap.android.gui.CoordDialogView: CoordDialogView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.DexSliderComponent
+com.atakmap.android.gui.DexSliderComponent: DexSliderComponent(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.DynamicCompass
+com.atakmap.android.gui.DynamicCompass: DynamicCompass(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.DynamicCompass$HeadingText
+com.atakmap.android.gui.DynamicCompass$HeadingText: DynamicCompass$HeadingText(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.EditText
+com.atakmap.android.gui.EditText: EditText(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.EditTextWithKeyPadDismissEvent
+com.atakmap.android.gui.EditTextWithKeyPadDismissEvent: EditTextWithKeyPadDismissEvent(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.EncryptedPanEditTextPreference
+com.atakmap.android.gui.EncryptedPanEditTextPreference: EncryptedPanEditTextPreference(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.HorizontalSliderComponent
+com.atakmap.android.gui.HorizontalSliderComponent: HorizontalSliderComponent(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.ImageRadioButton
+com.atakmap.android.gui.ImageRadioButton: ImageRadioButton(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.ImportFileBrowser
+com.atakmap.android.gui.ImportFileBrowser: ImportFileBrowser(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.PanCheckBoxPreference
+com.atakmap.android.gui.PanCheckBoxPreference: PanCheckBoxPreference(android.content.Context,android.util.AttributeSet,int,int)
+com.atakmap.android.gui.PanCheckBoxPreference: PanCheckBoxPreference(android.content.Context,android.util.AttributeSet,int)
+com.atakmap.android.gui.PanCheckBoxPreference: PanCheckBoxPreference(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.PanCheckBoxPreference: PanCheckBoxPreference(android.content.Context)
+com.atakmap.android.gui.PanEditTextPreference
+com.atakmap.android.gui.PanEditTextPreference: PanEditTextPreference(android.content.Context,android.util.AttributeSet,int,int)
+com.atakmap.android.gui.PanEditTextPreference: PanEditTextPreference(android.content.Context,android.util.AttributeSet,int)
+com.atakmap.android.gui.PanEditTextPreference: PanEditTextPreference(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.PanEditTextPreference: PanEditTextPreference(android.content.Context)
+com.atakmap.android.gui.PanListPreference
+com.atakmap.android.gui.PanListPreference: PanListPreference(android.content.Context,android.util.AttributeSet,int,int)
+com.atakmap.android.gui.PanListPreference: PanListPreference(android.content.Context,android.util.AttributeSet,int)
+com.atakmap.android.gui.PanListPreference: PanListPreference(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.PanListPreference: PanListPreference(android.content.Context)
+com.atakmap.android.gui.PanPreference
+com.atakmap.android.gui.PanPreference: PanPreference(android.content.Context,android.util.AttributeSet,int,int)
+com.atakmap.android.gui.PanPreference: PanPreference(android.content.Context,android.util.AttributeSet,int)
+com.atakmap.android.gui.PanPreference: PanPreference(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.PanPreference: PanPreference(android.content.Context)
+com.atakmap.android.gui.PanSwitchPreference
+com.atakmap.android.gui.PanSwitchPreference: PanSwitchPreference(android.content.Context,android.util.AttributeSet,int,int)
+com.atakmap.android.gui.PanSwitchPreference: PanSwitchPreference(android.content.Context,android.util.AttributeSet,int)
+com.atakmap.android.gui.PanSwitchPreference: PanSwitchPreference(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.PanSwitchPreference: PanSwitchPreference(android.content.Context)
+com.atakmap.android.gui.PluginSpinner
+com.atakmap.android.gui.PluginSpinner: PluginSpinner(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.PlusMinusWidget
+com.atakmap.android.gui.PlusMinusWidget: PlusMinusWidget(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.RangeBearingInputView
+com.atakmap.android.gui.RangeBearingInputView: RangeBearingInputView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.RangeBearingInputViewPilots
+com.atakmap.android.gui.RangeBearingInputViewPilots: RangeBearingInputViewPilots(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.SMSNumberPreference
+com.atakmap.android.gui.SMSNumberPreference: SMSNumberPreference(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.ShapeColorButton
+com.atakmap.android.gui.ShapeColorButton: ShapeColorButton(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.ThemedSpinner
+com.atakmap.android.gui.ThemedSpinner: ThemedSpinner(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.TileButtonView
+com.atakmap.android.gui.TileButtonView: TileButtonView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.gui.VerticalSeekBar
+com.atakmap.android.gui.VerticalSeekBar: VerticalSeekBar(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.hashtags.view.HashtagEditText
+com.atakmap.android.hashtags.view.HashtagEditText: HashtagEditText(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.hashtags.view.RemarksLayout
+com.atakmap.android.hashtags.view.RemarksLayout: RemarksLayout(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.hierarchy.HierarchyManagerView
+com.atakmap.android.hierarchy.HierarchyManagerView: HierarchyManagerView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.hierarchy.SortSpinner
+com.atakmap.android.hierarchy.SortSpinner: SortSpinner(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.http.rest.HTTPRequestService
+com.atakmap.android.http.rest.HTTPRequestService: HTTPRequestService()
+com.atakmap.android.icons.IconManagerView
+com.atakmap.android.icons.IconManagerView: IconManagerView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.image.FullImageView
+com.atakmap.android.image.FullImageView: FullImageView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.image.ImageDetailsView
+com.atakmap.android.image.ImageDetailsView: ImageDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.image.ImageEditReceiver
+com.atakmap.android.image.ImageEditReceiver: ImageEditReceiver()
+com.atakmap.android.importfiles.ui.ImportManagerFileBrowser
+com.atakmap.android.importfiles.ui.ImportManagerFileBrowser: ImportManagerFileBrowser(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.items.MapItemDetailsView
+com.atakmap.android.items.MapItemDetailsView: MapItemDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.layers.LayersManagerView
+com.atakmap.android.layers.LayersManagerView: LayersManagerView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.layers.OnlineLayersManagerView
+com.atakmap.android.layers.OnlineLayersManagerView: OnlineLayersManagerView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.layers.wms.DownloadAndCacheService
+com.atakmap.android.layers.wms.DownloadAndCacheService: DownloadAndCacheService()
+com.atakmap.android.maps.ImportFileActivity
+com.atakmap.android.maps.ImportFileActivity: ImportFileActivity()
+com.atakmap.android.maps.MapActivity: MapActivity()
+com.atakmap.android.medline.HLZView
+com.atakmap.android.medline.HLZView: HLZView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.medline.ZMistView
+com.atakmap.android.medline.ZMistView: ZMistView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.metrics.activity.MetricActivity: MetricActivity()
+com.atakmap.android.metrics.activity.MetricFragmentActivity: MetricFragmentActivity()
+com.atakmap.android.metrics.activity.MetricListActivity: MetricListActivity()
+com.atakmap.android.metrics.activity.MetricPreferenceActivity: MetricPreferenceActivity()
+com.atakmap.android.missionpackage.ui.FileTransferLogView
+com.atakmap.android.missionpackage.ui.FileTransferLogView: FileTransferLogView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.missionpackage.ui.MissionPackageQueryResultView
+com.atakmap.android.missionpackage.ui.MissionPackageQueryResultView: MissionPackageQueryResultView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.navigation.SelfCoordBottomBar
+com.atakmap.android.navigation.SelfCoordBottomBar: SelfCoordBottomBar(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.navigation.views.NavView
+com.atakmap.android.navigation.views.NavView: NavView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.navigation.views.buttons.CompassButtonChildView
+com.atakmap.android.navigation.views.buttons.CompassButtonChildView: CompassButtonChildView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.navigation.views.buttons.NavButton
+com.atakmap.android.navigation.views.buttons.NavButton: NavButton(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.navigation.views.buttons.NavZoomButton
+com.atakmap.android.navigation.views.buttons.NavZoomButton: NavZoomButton(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.navigation.views.loadout.LoadoutToolsGridView
+com.atakmap.android.navigation.views.loadout.LoadoutToolsGridView: LoadoutToolsGridView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.network.ui.CredentialsPreference
+com.atakmap.android.network.ui.CredentialsPreference: CredentialsPreference(android.content.Context,android.util.AttributeSet,int)
+com.atakmap.android.network.ui.CredentialsPreference: CredentialsPreference(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.routes.RoutePlannerView
+com.atakmap.android.routes.RoutePlannerView: RoutePlannerView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.routes.elevation.AnalysisPanelView
+com.atakmap.android.routes.elevation.AnalysisPanelView: AnalysisPanelView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.routes.elevation.RouteElevationView
+com.atakmap.android.routes.elevation.RouteElevationView: RouteElevationView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.routes.elevation.SeekerBarPanelView
+com.atakmap.android.routes.elevation.SeekerBarPanelView: SeekerBarPanelView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.tools.ActionBarView
+com.atakmap.android.tools.ActionBarView: ActionBarView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.track.ui.SeekBarPreference
+com.atakmap.android.track.ui.SeekBarPreference: SeekBarPreference(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.track.ui.TrackDetailsView
+com.atakmap.android.track.ui.TrackDetailsView: TrackDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.track.ui.TrackListView
+com.atakmap.android.track.ui.TrackListView: TrackListView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.track.ui.TrackSearchView
+com.atakmap.android.track.ui.TrackSearchView: TrackSearchView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.track.ui.UserListView
+com.atakmap.android.track.ui.UserListView: UserListView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.update.AppMgmtActivity
+com.atakmap.android.update.AppMgmtActivity: AppMgmtActivity()
+com.atakmap.android.user.ExpandableGridView
+com.atakmap.android.user.ExpandableGridView: ExpandableGridView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.user.feedback.FeedbackGalleryItemLayout
+com.atakmap.android.user.feedback.FeedbackGalleryItemLayout: FeedbackGalleryItemLayout(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.user.icon.Icon2525cPalletFragment
+com.atakmap.android.user.icon.Icon2525cPalletFragment: Icon2525cPalletFragment()
+com.atakmap.android.user.icon.MissionSpecificPalletFragment
+com.atakmap.android.user.icon.MissionSpecificPalletFragment: MissionSpecificPalletFragment()
+com.atakmap.android.user.icon.SpotMapPalletFragment
+com.atakmap.android.user.icon.SpotMapPalletFragment: SpotMapPalletFragment()
+com.atakmap.android.user.icon.SpotMapPointDetailsView
+com.atakmap.android.user.icon.SpotMapPointDetailsView: SpotMapPointDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.user.icon.UserIconPalletFragment
+com.atakmap.android.user.icon.UserIconPalletFragment: UserIconPalletFragment()
+com.atakmap.android.user.icon.VehiclePalletFragment
+com.atakmap.android.user.icon.VehiclePalletFragment: VehiclePalletFragment()
+com.atakmap.android.util.MyIpPreference
+com.atakmap.android.util.MyIpPreference: MyIpPreference(android.content.Context)
+com.atakmap.android.util.MyIpPreference: MyIpPreference(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.util.MyIpTextView
+com.atakmap.android.util.MyIpTextView: MyIpTextView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.vehicle.VehicleDetailsView
+com.atakmap.android.vehicle.VehicleDetailsView: VehicleDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.vehicle.model.ui.VehicleModelDetailsView
+com.atakmap.android.vehicle.model.ui.VehicleModelDetailsView: VehicleModelDetailsView(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.vehicle.model.ui.VehicleModelPalletFragment
+com.atakmap.android.vehicle.model.ui.VehicleModelPalletFragment: VehicleModelPalletFragment()
+com.atakmap.android.video.BufferSeekBar
+com.atakmap.android.video.BufferSeekBar: BufferSeekBar(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.video.legacy.Gv2FMobilePlayer
+com.atakmap.android.video.legacy.Gv2FMobilePlayer: Gv2FMobilePlayer()
+com.atakmap.android.video.legacy.Gv2FMobilePlayer: void onClickFastRev(android.view.View)
+com.atakmap.android.video.legacy.Gv2FMobilePlayer: void onClickSlowRev(android.view.View)
+com.atakmap.android.video.legacy.Gv2FMobilePlayer: void onClickPausePlay(android.view.View)
+com.atakmap.android.video.legacy.Gv2FMobilePlayer: void onClickSlowFwd(android.view.View)
+com.atakmap.android.video.legacy.Gv2FMobilePlayer: void onClickFastFwd(android.view.View)
+com.atakmap.android.widgets.TakButton
+com.atakmap.android.widgets.TakButton: TakButton(android.content.Context,android.util.AttributeSet)
+com.atakmap.android.widgets.TakEditText
+com.atakmap.android.widgets.TakEditText: TakEditText(android.content.Context,android.util.AttributeSet)
+com.atakmap.app.ATAKActivity
+com.atakmap.app.ATAKActivity: ATAKActivity()
+com.atakmap.app.ATAKApplication
+com.atakmap.app.ATAKApplication: ATAKApplication()
+com.atakmap.app.ATAKFragment
+com.atakmap.app.ATAKFragment: ATAKFragment()
+com.atakmap.app.BackgroundServices
+com.atakmap.app.BackgroundServices: BackgroundServices()
+com.atakmap.app.SettingsActivity
+com.atakmap.app.SettingsActivity: SettingsActivity()
+com.atakmap.app.preferences.AbstractSettingsActivity: AbstractSettingsActivity()
+com.atakmap.app.preferences.AppMgmtSettingsActivity
+com.atakmap.app.preferences.AppMgmtSettingsActivity: AppMgmtSettingsActivity()
+com.atakmap.app.preferences.LocationSettingsActivity
+com.atakmap.app.preferences.LocationSettingsActivity: LocationSettingsActivity()
+com.atakmap.app.preferences.NetworkSettingsActivity
+com.atakmap.app.preferences.NetworkSettingsActivity: NetworkSettingsActivity()
+com.atakmap.comms.app.AddNetInfoActivity
+com.atakmap.comms.app.AddNetInfoActivity: AddNetInfoActivity()
+com.atakmap.comms.app.CotInputsListActivity
+com.atakmap.comms.app.CotInputsListActivity: CotInputsListActivity()
+com.atakmap.comms.app.CotOutputsListActivity
+com.atakmap.comms.app.CotOutputsListActivity: CotOutputsListActivity()
+com.atakmap.comms.app.CotPortListActivity: CotPortListActivity()
+com.atakmap.comms.app.CotStreamListActivity
+com.atakmap.comms.app.CotStreamListActivity: CotStreamListActivity()
+com.foxykeep.datadroid.service.MultiThreadedIntentService: MultiThreadedIntentService()
+com.foxykeep.datadroid.service.RequestService: RequestService()
+com.partech.mobilevid.SharedGLSurfaceView
+com.partech.mobilevid.SharedGLSurfaceView: SharedGLSurfaceView(android.content.Context,android.util.AttributeSet)
+plugins.host.provider.PluginProvider
+plugins.host.provider.PluginProvider: PluginProvider()

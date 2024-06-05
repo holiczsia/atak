@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.atakmap.app.civ",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1680967075,
+        "versionName": "4.6.0.5 (22d11cba)",
+        "outputFile": "ATAK-4.6.0.5-22d11cba-civ-debug.apk",
+        "fullName": "civDebug",
+        "baseName": "civ-debug",
+        "dirName": ""
+      },
+      "path": "resources-civDebug.ap_",
+      "properties": {
+        "packageId": "com.atakmap.app.civ",
+        "split": "",
+        "minSdkVersion": "21"
+      }
+    }
+  ]
+}

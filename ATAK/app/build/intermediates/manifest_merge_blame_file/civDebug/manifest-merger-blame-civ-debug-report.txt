@@ -1,0 +1,875 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.atakmap.app.civ"
+4    android:versionCode="1680967075"
+5    android:versionName="4.6.0.5 (22d11cba)" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml
+10
+11    <!--
+12         this protected permission is used on NettWarrior devices and will 
+13         allow for the software to be notified of a shutdown
+14    -->
+15    <uses-permission android:name="android.permission.DEVICE_POWER" />
+15-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:8:5-9:60
+15-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:8:22-68
+16
+17    <!--
+18         Allows for accessing the camera used to set image capture settings, 
+19         start/stop preview, snap pictures, and retrieve frames for encoding 
+20         for video.   This is used by the several plugins to capture images 
+21         without launching the camera.
+22    -->
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:15:5-65
+23-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:15:22-62
+24
+25    <!--
+26         Allows an application to read or write the system settings.   This 
+27         is still in use for very old distributions to allow for a user to 
+28         have the app put the end user devices into airplane mode when launched.
+29    -->
+30    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+30-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:20:5-109
+30-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:20:22-70
+31
+32    <!--
+33         Allows access to the vibrator. The user can set vibration when they 
+34         receive a chat message.
+35    -->
+36    <uses-permission android:name="android.permission.VIBRATE" />
+36-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:24:5-66
+36-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:24:22-63
+37
+38    <!--
+39         request permission for plugin sdk usage, in this case the wallpaper 
+40         is the security banners
+41    -->
+42    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+42-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:28:5-72
+42-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:28:22-69
+43
+44    <!--
+45         privilege required to to access the network such as when you are 
+46         pulling down map data, publishing your PPLI, connecting to a 
+47         TAK Server.
+48    -->
+49    <uses-permission android:name="android.permission.INTERNET" />
+49-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:33:5-67
+49-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:33:22-64
+50
+51    <!-- Allows applications to change network connectivity state. -->
+52    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+52-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:36:5-79
+52-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:36:22-76
+53
+54    <!--
+55         Allows applications to access network connectivity state.  This is
+56         specifically used as a fast check to see if the network is up when 
+57         performing an address lookup
+58    -->
+59    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+59-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:41:5-79
+59-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:41:22-76
+60
+61    <!--
+62         privilege required to access the bluetooth for any bluetooth 
+63         communication so that ATAK can make use of blue tooth laser 
+64         range finders and gps pucks
+65    -->
+66    <uses-permission android:name="android.permission.BLUETOOTH" />
+66-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:46:5-67
+66-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:46:22-65
+67
+68    <!--
+69         privilege required to access the bluetooth for discovery and pairing 
+70         so that ATAK can make use of blue tooth laser range finders and gps
+71         pucks
+72    -->
+73    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+73-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:51:5-73
+73-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:51:22-71
+74
+75    <!--
+76         privilege required for to manipulate files such as any user exports 
+77         of products from the map
+78    -->
+79    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+79-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:55:5-81
+79-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:55:22-78
+80
+81    <!--
+82         Any app that declares the WRITE_EXTERNAL_STORAGE permission is implicitly 
+83         granted this permission.  This permission is enforced starting in API level 
+84         19. Before API level 19, this permission is not enforced and all apps still 
+85         have access to read from external storage. Added in at the request of a 
+86         system developer that was observing issues.
+87    -->
+88    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+88-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:62:5-80
+88-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:62:22-77
+89
+90    <!--
+91         privilege required to obtain GPS, used within the location components 
+92         in the app
+93    -->
+94    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+94-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:66:5-79
+94-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:66:22-76
+95    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+95-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:67:5-88
+95-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:67:22-86
+96
+97    <!-- required to allow for background gathering of information on Android 10+ -->
+98    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+98-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:70:5-85
+98-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:70:22-82
+99    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+99-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:73:5-76
+99-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:73:22-73
+100    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+100-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:74:5-86
+100-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:74:22-83
+101
+102    <!--
+103         Used to get the telephony device id for use as the UUID within the 
+104         PPLI messages
+105    -->
+106
+107    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+107-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:79:5-75
+107-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:79:22-72
+108
+109    <!--
+110         required to allow for the app to continue functioning when background as 
+111         it is intended
+112    -->
+113    <uses-permission android:name="android.permission.WAKE_LOCK" />
+113-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:83:5-68
+113-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:83:22-65
+114    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+114-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:84:5-75
+114-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:84:22-72
+115    <uses-permission android:name="android.permission.GET_TASKS" />
+115-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:85:5-68
+115-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:85:22-65
+116
+117    <!--
+118         privilege required to send SMS messages, specifically as part of an 
+119         emergency alert
+120    -->
+121    <uses-permission android:name="android.permission.SEND_SMS" />
+121-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:92:5-66
+121-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:92:22-64
+122
+123    <!-- privilege required to pair with NFC devices -->
+124    <uses-permission android:name="android.permission.NFC" />
+124-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:95:5-61
+124-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:95:22-59
+125
+126    <!--
+127         privilege to allow for the application to turn off power saving features
+128         that would adversely affect operational usage
+129    -->
+130    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+130-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:100:5-94
+130-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:100:22-92
+131
+132    <!-- allows for the app to install other apks -->
+133    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+133-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:103:5-82
+133-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:103:22-80
+134
+135    <!-- allows for the app to run in the foreground -->
+136    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+136-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:106:5-76
+136-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:106:22-74
+137
+138    <!-- wardriving plugin permission -->
+139    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+139-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:109:5-75
+139-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:109:22-73
+140
+141    <!--
+142         for voice commands and voice over ip plugins specifically in order to 
+143         provide for voice recognition capabilites in the application
+144    -->
+145    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+145-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:113:5-71
+145-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:113:22-68
+146
+147    <!--
+148         during driving, the application can speak to you, this allows for the 
+149         volume to be adjusted during that work flow.
+150    -->
+151    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+151-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:117:5-80
+151-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:117:22-77
+152
+153    <!-- for calls to _context.getContentResolver().openInputStream(uri); -->
+154    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+154-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:120:5-111
+154-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:120:22-72
+155
+156    <!--
+157         both declare and use the ALLOW_TEXT_SPEECH in order to facilitate a local 
+158         intent to utilize the text to speech in the background
+159    -->
+160    <permission
+160-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:125:5-127:46
+161        android:name="com.atakmap.app.ALLOW_TEXT_SPEECH"
+161-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:125:17-65
+162        android:label="TAK Text to Speech"
+162-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:126:9-43
+163        android:protectionLevel="signature" />
+163-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:127:9-44
+164
+165    <uses-permission android:name="com.atakmap.app.ALLOW_TEXT_SPEECH" />
+165-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:128:5-72
+165-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:128:22-70
+166
+167    <!--
+168         used for metric collection by the app or any of the plugins, the user must also
+169         enable access for this app through Settings > Security > Apps with usage access.
+170    -->
+171
+172    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+172-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:133:5-113
+172-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:133:22-75
+173
+174    <!-- used to interact inside an container with the new KNOX Samsung rollouts -->
+175    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+175-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:136:5-115
+175-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:136:22-77
+176
+177    <!-- used to install and uninstall packages -->
+178    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+178-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:139:5-81
+178-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:139:22-79
+179
+180    <uses-feature android:name="android.hardware.camera" />
+180-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:141:5-60
+180-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:141:19-57
+181    <uses-feature android:name="android.hardware.camera.autofocus" />
+181-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:142:5-70
+181-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:142:19-67
+182    <uses-feature android:name="android.hardware.usb.host" />
+182-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:143:5-62
+182-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:143:19-59
+183    <uses-feature android:name="android.hardware.usb.accessory" />
+183-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:144:5-67
+183-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:144:19-64
+184
+185    <!-- Tell the system this app requires OpenGL ES 3.0. -->
+186    <uses-feature
+186-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:147:5-78
+187        android:glEsVersion="0x00030000"
+187-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:147:19-51
+188        android:required="true" />
+188-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:147:52-75
+189
+190    <!-- Android 11 for accessing the file system as it has traditionally done -->
+191    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+191-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:150:5-82
+191-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:150:22-79
+192
+193    <!-- Android 11 required for accessing the phone number of the phone -->
+194    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+194-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:153:5-77
+194-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:153:22-74
+195
+196    <!-- Android 11 for supporting plugins -->
+197    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+197-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:157:5-158:53
+197-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:157:22-74
+198
+199    <!-- Allows for the application to find all plugins when QUERY_ALL_PACKAGES is removed -->
+200    <queries>
+200-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:162:5-166:15
+201        <intent>
+201-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:163:9-165:18
+202            <action android:name="com.atakmap.app.component" />
+202-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:164:13-64
+202-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:164:21-61
+203        </intent>
+204    </queries>
+205    <!--
+206     NOTE: The ATAKActivity needs to be run in singleTask mode because of 
+207         how the GLSurface is being used and abused.  Up until this change,
+208         ATAKActivity was not actually correctly exiting due to a service
+209         that was continuing to run.   Please take care to make sure that 
+210         the ATAKActivity ends properly when Quit is selected, otherwise 
+211         you will not be able to rerun app until you force quit the process.
+212    -->
+213    <!--
+214 Enable legacy external storage behavior as a temporary fix.   Need to consider a move 
+215         to scoped storage in the future
+216    -->
+217    <!--
+218 This application does not make use of google play so it is not subject to the 
+219         Google Play Service Updated Security Provider bad practice.  We also deploy on 
+220         devices that do not ship with Google Play Services
+221    -->
+222    <application
+222-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:182:5-402:19
+223        android:name="com.atakmap.app.ATAKApplication"
+223-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:187:9-55
+224        android:allowBackup="false"
+224-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:192:9-36
+225        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+225-->[androidx.core:core:1.2.0] /home/radu/.gradle/caches/transforms-3/8e7a285630fcf9d9ba599bd2b2411ba1/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+226        android:debuggable="true"
+227        android:description="@string/app_desc"
+227-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:191:9-47
+228        android:extractNativeLibs="true"
+228-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:189:9-41
+229        android:hardwareAccelerated="true"
+229-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:184:9-43
+230        android:icon="@drawable/ic_atak_launcher"
+230-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:188:9-50
+231        android:label="@string/app_name"
+231-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:185:9-41
+232        android:requestLegacyExternalStorage="true"
+232-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:183:9-52
+233        android:supportsRtl="false"
+233-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:193:9-36
+234        android:theme="@style/ATAKThemeActionBar"
+234-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:186:9-50
+235        android:usesCleartextTraffic="true" >
+235-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:190:9-44
+236        <meta-data
+237            android:name="plugin-api"
+237-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:195:20-45
+238            android:value="com.atakmap.app@4.6.0.CIV" />
+238-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:195:46-79
+239        <meta-data
+239-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:196:9-78
+240            android:name="app_desc"
+240-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:196:20-43
+241            android:value="@string/app_desc" />
+241-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:196:44-76
+242
+243        <!-- forces ATAK to not restart when moving to and from DEX station mode -->
+244        <meta-data
+244-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:200:9-95
+245            android:name="com.samsung.android.keepalive.density"
+245-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:200:20-72
+246            android:value="true" />
+246-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:200:73-93
+247
+248        <!-- forces ATAK into full screen only mode on the S8/LG -->
+249        <meta-data
+249-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:203:9-76
+250            android:name="android.max_aspect"
+250-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:203:20-53
+251            android:value="2.1" />
+251-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:203:54-73
+252
+253        <activity
+253-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:206:9-220:20
+254            android:name="com.atakmap.app.ATAKActivity"
+254-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:207:13-41
+255            android:configChanges="density|fontScale|keyboard|keyboardHidden|                                    layoutDirection|locale|mcc|mnc|navigation|                                    orientation|screenLayout|screenSize|smallestScreenSize|                                    touchscreen|uiMode"
+255-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:206:9-220:20
+256            android:label="@string/app_name"
+256-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:213:13-45
+257            android:launchMode="singleTask"
+257-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:208:13-44
+258            android:screenOrientation="nosensor"
+258-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:216:13-49
+259            android:theme="@style/ATAKTheme"
+259-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:214:13-45
+260            android:windowSoftInputMode="adjustPan" >
+260-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:215:13-52
+261            <intent-filter>
+261-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:217:13-219:29
+262                <action android:name="android.intent.action.MAIN" />
+262-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:218:17-69
+262-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:218:25-66
+263            </intent-filter>
+264        </activity>
+265
+266        <activity-alias
+266-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:235:9-244:26
+267            android:name="com.atakmap.app.ATAKActivityCiv"
+267-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:237:13-44
+268            android:enabled="true"
+268-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:239:13-35
+269            android:icon="@drawable/ic_atak_launcher"
+269-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:238:13-54
+270            android:targetActivity="com.atakmap.app.ATAKActivity" >
+270-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:236:13-51
+271            <intent-filter>
+271-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:228:13-231:29
+272                <action android:name="android.intent.action.MAIN" />
+272-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:218:17-69
+272-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:218:25-66
+273
+274                <category android:name="android.intent.category.LAUNCHER" />
+274-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:230:17-77
+274-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:230:27-74
+275            </intent-filter>
+276        </activity-alias>
+277        <activity-alias
+277-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:223:9-232:26
+278            android:name="com.atakmap.app.ATAKActivityMil"
+278-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:225:13-44
+279            android:enabled="false"
+279-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:227:13-36
+280            android:icon="@drawable/ic_mil_atak_launcher"
+280-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:226:13-58
+281            android:targetActivity="com.atakmap.app.ATAKActivity" >
+281-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:224:13-51
+282            <intent-filter>
+282-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:228:13-231:29
+283                <action android:name="android.intent.action.MAIN" />
+283-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:218:17-69
+283-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:218:25-66
+284
+285                <category android:name="android.intent.category.LAUNCHER" />
+285-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:230:17-77
+285-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:230:27-74
+286            </intent-filter>
+287        </activity-alias>
+288
+289        <!--
+290             only exists at this point to block installation of older apps with 
+291            other app identifiers.   Note this is not a valid provider and no
+292            attempts should be made to use it
+293        -->
+294        <provider
+294-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:249:9-251:46
+295            android:name="plugins.host.provider.PluginProvider"
+295-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:249:19-70
+296            android:authorities="com.atakmap.app.plugins.registry"
+296-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:250:19-73
+297            android:exported="false" />
+297-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:251:19-43
+298        <provider
+299            android:name="androidx.core.content.FileProvider"
+299-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:255:13-62
+300            android:authorities="com.atakmap.app.civ.provider"
+300-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:256:13-60
+301            android:exported="false"
+301-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:257:13-37
+302            android:grantUriPermissions="true" >
+302-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:258:13-47
+303            <meta-data
+303-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:259:13-261:57
+304                android:name="android.support.FILE_PROVIDER_PATHS"
+304-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:260:17-67
+305                android:resource="@xml/provider_paths" />
+305-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:261:17-55
+306        </provider>
+307
+308        <!-- Sub Activities -->
+309
+310        <activity android:name="com.atakmap.android.maps.ImportFileActivity" >
+310-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:266:9-310:20
+310-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:267:13-71
+311            <intent-filter android:label="@string/app_name" >
+311-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:268:13-303:29
+311-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:268:28-60
+312
+313                <!-- Allow ATAK to handle supported file imported by the user -->
+314                <action android:name="android.intent.action.SEND" />
+314-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:270:17-69
+314-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:270:25-66
+315
+316                <!-- Note, extensions may be added here. These are unfortunately case sensitive... -->
+317                <category android:name="android.intent.category.DEFAULT" />
+317-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:273:17-76
+317-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:273:27-73
+318
+319                <data
+319-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+320                    android:host="*"
+320-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+321                    android:mimeType="*/*"
+321-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+322                    android:pathPattern=".*\\.zip" />
+322-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+323                <data
+323-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+324                    android:host="*"
+324-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+325                    android:mimeType="*/*"
+325-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+326                    android:pathPattern=".*\\.kml" />
+326-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+327                <data
+327-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+328                    android:host="*"
+328-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+329                    android:mimeType="*/*"
+329-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+330                    android:pathPattern=".*\\.kmz" />
+330-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+331                <data
+331-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+332                    android:host="*"
+332-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+333                    android:mimeType="*/*"
+333-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+334                    android:pathPattern=".*\\.lpt" />
+334-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+335                <data
+335-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+336                    android:host="*"
+336-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+337                    android:mimeType="*/*"
+337-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+338                    android:pathPattern=".*\\.drw" />
+338-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+339                <data
+339-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+340                    android:host="*"
+340-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+341                    android:mimeType="*/*"
+341-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+342                    android:pathPattern=".*\\.shp" />
+342-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+343                <data
+343-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+344                    android:host="*"
+344-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+345                    android:mimeType="*/*"
+345-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+346                    android:pathPattern=".*\\.shpz" />
+346-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+347                <data
+347-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+348                    android:host="*"
+348-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+349                    android:mimeType="*/*"
+349-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+350                    android:pathPattern=".*\\.xml" />
+350-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+351                <data
+351-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+352                    android:host="*"
+352-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+353                    android:mimeType="*/*"
+353-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+354                    android:pathPattern=".*\\.txt" />
+354-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+355                <data
+355-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+356                    android:host="*"
+356-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+357                    android:mimeType="*/*"
+357-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+358                    android:pathPattern=".*\\.pref" />
+358-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+359                <data
+359-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+360                    android:host="*"
+360-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+361                    android:mimeType="*/*"
+361-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+362                    android:pathPattern=".*\\.cot" />
+362-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+363                <data
+363-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+364                    android:host="*"
+364-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+365                    android:mimeType="*/*"
+365-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+366                    android:pathPattern=".*\\.sqlite" />
+366-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+367                <data
+367-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+368                    android:host="*"
+368-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+369                    android:mimeType="*/*"
+369-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+370                    android:pathPattern=".*\\.gpx" />
+370-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+371                <data
+371-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+372                    android:host="*"
+372-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+373                    android:mimeType="*/*"
+373-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+374                    android:pathPattern=".*\\.csv" />
+374-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+375                <data
+375-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+376                    android:host="*"
+376-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+377                    android:mimeType="*/*"
+377-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+378                    android:pathPattern=".*\\.inf" />
+378-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+379                <data
+379-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+380                    android:host="*"
+380-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+381                    android:mimeType="*/*"
+381-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+382                    android:pathPattern=".*\\.tif" />
+382-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+383                <data
+383-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+384                    android:host="*"
+384-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+385                    android:mimeType="*/*"
+385-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+386                    android:pathPattern=".*\\.ntf" />
+386-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+387                <data
+387-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+388                    android:host="*"
+388-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+389                    android:mimeType="*/*"
+389-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+390                    android:pathPattern=".*\\.nitf" />
+390-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+391                <data
+391-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+392                    android:host="*"
+392-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+393                    android:mimeType="*/*"
+393-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+394                    android:pathPattern=".*\\.sid" />
+394-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+395                <data
+395-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+396                    android:host="*"
+396-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:46-62
+397                    android:mimeType="*/*"
+397-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+398                    android:pathPattern=".*\\.dpkg" />
+398-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:63-93
+399
+400                <!--
+401                TODO: Build a better way to attach a file to a marker by augmenting the intent that 
+402                is processed by starting ATAK as part of ImportFileActivity
+403
+404                <data android:mimeType="*/*" android:host="*" android:pathPattern=".*\\.png" />
+405                <data android:mimeType="*/*" android:host="*" android:pathPattern=".*\\.jpg" />
+406                <data android:mimeType="*/*" android:host="*" android:pathPattern=".*\\.jpeg" />
+407                -->
+408            </intent-filter>
+409            <intent-filter android:label="@string/app_name" >
+409-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:304:13-309:29
+409-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:304:28-60
+410                <action android:name="android.intent.action.VIEW" />
+410-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:305:17-69
+410-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:305:25-66
+411
+412                <category android:name="android.intent.category.DEFAULT" />
+412-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:273:17-76
+412-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:273:27-73
+413
+414                <data android:scheme="content" />
+414-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+414-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:307:23-47
+415                <data android:mimeType="application/octet-stream" />
+415-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:17-96
+415-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:274:23-45
+416            </intent-filter>
+417        </activity>
+418        <activity
+418-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:311:9-314:50
+419            android:name="com.atakmap.android.video.legacy.Gv2FMobilePlayer"
+419-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:312:13-77
+420            android:configChanges="orientation"
+420-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:313:13-48
+421            android:screenOrientation="behind" />
+421-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:314:13-47
+422        <activity
+422-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:315:9-318:50
+423            android:name="com.atakmap.comms.app.CotInputsListActivity"
+423-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:316:13-71
+424            android:configChanges="orientation"
+424-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:317:13-48
+425            android:screenOrientation="behind" />
+425-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:318:13-47
+426        <activity
+426-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:319:9-322:50
+427            android:name="com.atakmap.comms.app.AddNetInfoActivity"
+427-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:320:13-68
+428            android:configChanges="orientation"
+428-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:321:13-48
+429            android:screenOrientation="behind" />
+429-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:322:13-47
+430        <activity
+430-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:323:9-326:50
+431            android:name="com.atakmap.comms.app.CotStreamListActivity"
+431-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:324:13-71
+432            android:configChanges="orientation"
+432-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:325:13-48
+433            android:screenOrientation="behind" />
+433-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:326:13-47
+434        <activity
+434-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:327:9-330:50
+435            android:name="com.atakmap.android.cot.TadilJListActivity"
+435-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:328:13-70
+436            android:configChanges="orientation"
+436-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:329:13-48
+437            android:screenOrientation="behind" />
+437-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:330:13-47
+438        <activity
+438-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:331:9-334:50
+439            android:name="com.atakmap.comms.app.CotOutputsListActivity"
+439-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:332:13-72
+440            android:configChanges="orientation"
+440-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:333:13-48
+441            android:screenOrientation="behind" />
+441-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:334:13-47
+442        <activity
+442-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:335:9-338:50
+443            android:name="com.atakmap.android.drawing.KmlImportListActivity"
+443-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:336:13-77
+444            android:configChanges="orientation"
+444-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:337:13-48
+445            android:screenOrientation="behind" />
+445-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:338:13-47
+446        <activity
+446-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:339:9-346:20
+447            android:name="com.atakmap.app.SettingsActivity"
+447-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:340:13-60
+448            android:configChanges="orientation"
+448-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:341:13-48
+449            android:screenOrientation="behind" >
+449-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:342:13-47
+450            <meta-data
+450-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:343:13-345:49
+451                android:name="android.support.PARENT_ACTIVITY"
+451-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:344:17-63
+452                android:value=".ATAKActivity" />
+452-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:345:17-46
+453        </activity>
+454        <activity
+454-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:347:9-354:20
+455            android:name="com.atakmap.app.preferences.LocationSettingsActivity"
+455-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:348:13-80
+456            android:configChanges="orientation"
+456-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:349:13-48
+457            android:screenOrientation="behind" >
+457-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:350:13-47
+458            <meta-data
+458-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:343:13-345:49
+459                android:name="android.support.PARENT_ACTIVITY"
+459-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:344:17-63
+460                android:value=".ATAKActivity" />
+460-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:345:17-46
+461        </activity>
+462        <activity
+462-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:355:9-362:20
+463            android:name="com.atakmap.app.preferences.NetworkSettingsActivity"
+463-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:356:13-79
+464            android:configChanges="orientation"
+464-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:357:13-48
+465            android:screenOrientation="behind" >
+465-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:358:13-47
+466            <meta-data
+466-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:343:13-345:49
+467                android:name="android.support.PARENT_ACTIVITY"
+467-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:344:17-63
+468                android:value=".ATAKActivity" />
+468-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:345:17-46
+469        </activity>
+470        <activity
+470-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:363:9-370:20
+471            android:name="com.atakmap.app.preferences.AppMgmtSettingsActivity"
+471-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:364:13-79
+472            android:configChanges="orientation"
+472-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:365:13-48
+473            android:screenOrientation="behind" >
+473-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:366:13-47
+474            <meta-data
+474-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:343:13-345:49
+475                android:name="android.support.PARENT_ACTIVITY"
+475-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:344:17-63
+476                android:value="com.atakmap.android.update.AppMgmtActivity" />
+476-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:345:17-46
+477        </activity>
+478        <activity
+478-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:372:9-379:20
+479            android:name="com.atakmap.android.update.AppMgmtActivity"
+479-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:372:19-76
+480            android:configChanges="orientation"
+480-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:374:13-48
+481            android:screenOrientation="behind"
+481-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:375:13-47
+482            android:uiOptions="splitActionBarWhenNarrow" >
+482-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:373:13-57
+483            <meta-data
+483-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:343:13-345:49
+484                android:name="android.support.PARENT_ACTIVITY"
+484-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:344:17-63
+485                android:value=".ATAKActivity" />
+485-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:345:17-46
+486        </activity>
+487
+488        <!--
+489             Responsible for keeping the GPS alive with the Android 8 (Oreo) as well
+490             other background services such as TTS
+491        -->
+492        <service
+492-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:384:9-94
+493            android:name="com.atakmap.app.BackgroundServices"
+493-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:384:18-67
+494            android:exported="false" />
+494-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:384:68-92
+495        <service
+495-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:386:9-109
+496            android:name="com.atakmap.android.http.rest.HTTPRequestService"
+496-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:386:18-81
+497            android:exported="false" />
+497-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:386:82-106
+498        <service
+498-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:387:9-115
+499            android:name="com.atakmap.android.layers.wms.DownloadAndCacheService"
+499-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:387:18-87
+500            android:exported="false" />
+500-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:387:88-112
+501
+502        <!--
+503             required due to legacy coding of the ImageEditReceiver and cannot have 
+504             a component permission
+505        -->
+506        <receiver
+506-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:392:9-396:20
+507            android:name="com.atakmap.android.image.ImageEditReceiver"
+507-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:392:19-77
+508            android:exported="true" >
+508-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:392:78-101
+509            <intent-filter>
+509-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:393:13-395:29
+510                <action android:name="com.atakmap.maps.images.REFRESH" />
+510-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:394:17-73
+510-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:394:25-71
+511            </intent-filter>
+512        </receiver>
+513
+514        <!--
+515             As of Android 10 the Apache libries are no longer supplied unless this attribute
+516             is provided
+517        -->
+518        <uses-library
+518-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:400:9-87
+519            android:name="org.apache.http.legacy"
+519-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:400:23-60
+520            android:required="false" />
+520-->/home/radu/AndroidTacticalAssaultKit-CIV/atak/ATAK/app/src/main/AndroidManifest.xml:400:61-85
+521
+522        <provider
+522-->[androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:25:9-29:43
+523            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+523-->[androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:26:13-79
+524            android:authorities="com.atakmap.app.civ.lifecycle-process"
+524-->[androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:27:13-69
+525            android:exported="false"
+525-->[androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:28:13-37
+526            android:multiprocess="true" />
+526-->[androidx.lifecycle:lifecycle-process:2.3.1] /home/radu/.gradle/caches/transforms-3/19efbfa62b5ea67f98eb30c6c483b10f/transformed/lifecycle-process-2.3.1/AndroidManifest.xml:29:13-40
+527    </application>
+528
+529</manifest>
